@@ -100,7 +100,7 @@ for iter in range(config['num_iterations']):
         target = (1-mask_2) * img_L_torch
 
 
-    if iter % 2 == 0:
+    if iter % 5 == 0:
         coordinates, features = to_coordinates_and_features(mask_input.squeeze(0).detach())
         coordinates, features = coordinates.cuda(), features.cuda()
         input_coordinates, input_features, indices = utils.input_shuffle(coordinates_H, features_H)
@@ -170,8 +170,3 @@ ssim1 = ssim(np.clip((avg / float(config['num_predictions'])) * 255., 0., 255.),
 file_name = f'result/_{psnr}_{ssim1}.png'
 image.save(file_name)
 print(psnr, ssim1)
-
-
-
-
-
