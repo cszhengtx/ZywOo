@@ -1,0 +1,6 @@
+img_size: 256
+input_channels: 3
+
+lr: 0.0004
+num_predictions: 400
+num_iterations: 1200
