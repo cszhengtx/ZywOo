@@ -5,7 +5,7 @@ Zero-Shot Blind-Spot Image Denoising via Implicit Neural Sampling
 
 If you find our work useful in your research, please consider citing:
 
-'''
+```
 @inproceedings{quan2025zero,
   title={Zero-Shot Blind-spot Image Denoising via Implicit Neural Sampling},
   author={Quan, Yuhui and Zheng, Tianxiang and Ma, Zhiyuan and Ji, Hui},
@@ -13,4 +13,4 @@ If you find our work useful in your research, please consider citing:
   pages={7502--7512},
   year={2025}
 }
-'''
+```
