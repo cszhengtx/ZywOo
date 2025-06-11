@@ -1,2 +1,2 @@
 
-Zero-Shot Blind-spot Image Denoising via Implicit Neural Sampling
+Zero-Shot Blind-Spot Image Denoising via Implicit Neural Sampling
